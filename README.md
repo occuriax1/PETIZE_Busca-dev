@@ -1,6 +1,12 @@
 # BUSCA-DEV
+BuscaDev é uma aplicação web desenvolvida utilizando Angular e integrada com a API pública do GitHub. O principal objetivo do projeto é permitir aos usuários pesquisar perfis de desenvolvedores no GitHub de forma rápida e eficiente. Através de uma interface amigável, os usuários podem inserir um nome de usuário do GitHub para visualizar informações detalhadas do perfil, incluindo repositórios destacados, seguidores, perfis de redes sociais e muito mais.
 
-Descrição breve sobre o projeto, seus objetivos e o que ele faz.
+# Funcionalidades:
+
+Pesquisa de Usuários: Os usuários podem pesquisar desenvolvedores pelo nome de usuário do GitHub. A aplicação consulta a API do GitHub e retorna informações como nome, bio, localização, número de seguidores e repositórios.
+Detalhes dos Repositórios: Após a pesquisa de um usuário, os repositórios do desenvolvedor são listados, organizados por número de estrelas. Cada repositório pode ser acessado diretamente através de links para o GitHub.
+Navegação Intuitiva: O projeto oferece uma navegação simples entre a página de resultados e a página inicial, permitindo novas pesquisas de forma prática.
+Resposta Visual: Utilização de SweetAlert2 para melhorar a resposta visual em alertas e confirmações dentro da aplicação.
 
 ## Pré-requisitos
 
