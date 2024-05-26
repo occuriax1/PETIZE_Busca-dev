@@ -1,27 +1,64 @@
-# BuscaDev
+# BUSCA-DEV
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
+Descrição breve sobre o projeto, seus objetivos e o que ele faz.
 
-## Development server
+## Pré-requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Antes de iniciar, certifique-se de ter instalado em sua máquina:
+- Node.js (v14.x ou superior recomendado)
+- npm (v7.x ou superior) ou Yarn (v1.22.x ou superior)
 
-## Code scaffolding
+Você pode verificar as versões instaladas com os seguintes comandos:
+```bash
+node -v
+npm -v
+yarn -v
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Configuração Inicial
 
-## Build
+Instalação do Projeto
+Clone o repositório:
+git clone [URL do repositório]
+cd [nome-do-projeto]
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Instale as dependências do projeto:
 
-## Running unit tests
+npm install
+# ou
+yarn install
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Executando o Ambiente de Desenvolvimento
 
-## Running end-to-end tests
+Para iniciar o servidor de desenvolvimento, execute:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+npm start
+# ou
+yarn start
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Este comando iniciará o servidor local e abrirá o projeto no navegador padrão. Qualquer alteração nos arquivos do projeto será automaticamente recarregada no navegador.
+
+## Build para Produção
+
+Para gerar a versão de produção do projeto, execute:
+
+npm run build
+# ou
+yarn build
+
+Os arquivos de produção serão armazenados no diretório dist/. Estes arquivos estão prontos para serem hospedados em qualquer servidor web.
+
+## Motivação das Escolhas
+
+Bibliotecas:
+RxJS: Utilizado para gerenciar o estado e a comunicação entre componentes de maneira eficaz, através de programação reativa.
+SweetAlert2: Optei por SweetAlert2 para melhorar a interface de usuário, proporcionando alertas modais mais elegantes e funcionais em comparação com os alertas padrão do navegador.
+
+## Estrutura do Projeto
+
+O projeto está estruturado da seguinte forma:
+
+src/app: Contém todos os componentes, serviços e modelos utilizados no projeto.
+components: Diretório para os componentes da interface de usuário.
+services: Diretório para os serviços que gerenciam as chamadas de API e a lógica de negócios.
+src/assets: Diretório para imagens, fontes e outros ativos estáticos.
